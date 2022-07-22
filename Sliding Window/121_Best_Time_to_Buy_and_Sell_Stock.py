@@ -51,6 +51,8 @@ def maxProfit(prices):
 			profit = max(profit, currProfit)
 		else:
 			left = right
+	
+	return profit
 
 if __name__ == "__main__":
 	pass
